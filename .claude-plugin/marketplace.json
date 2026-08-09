@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "mba-skills",
-  "description": "MBA 学习类技能集：three-pages——把任意课程浓缩成 ≤3 页精华参考文档。",
+  "description": "Skills of how MBAs think and do——MBA 学习与思维技能集（持续扩展）。",
   "owner": {
     "name": "rongxinkun"
   },
@@ -9,7 +9,7 @@
     {
       "name": "mba-skills",
       "source": "./",
-      "description": "MBA 学习类技能集：three-pages——把任意课程浓缩成 ≤3 页精华参考文档。"
+      "description": "MBA 学习与思维技能集——Skills of how MBAs think and do。"
     }
   ]
 }
