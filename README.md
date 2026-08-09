@@ -14,18 +14,32 @@
 
 本仓库是**自指 marketplace**（配置见 `.claude-plugin/`），技能本体在 `study/<skill>/`。
 
+> 仓库地址：https://github.com/atlantisfall/mba-skills
+
+### 给同学 / 无编程经验者（一键安装）
+
+**前置**：需要先装好 Claude Code（桌面版或终端版均可）。
+
+然后在 Claude Code 里，把下面两行**逐行复制粘贴**并回车：
+
+```
+/plugin marketplace add atlantisfall/mba-skills
+/plugin install mba-skills@mba-skills
+```
+
+装完输入 `/reload-plugins`（或重启 Claude Code），就可以直接用了，比如对 Claude 说：
+
+> 帮我把《市场营销》做成三页纸复习资料，两周后要考试。
+
+### 给开发者（本地调试）
+
 - **临时体验**（不开插件）：
   ```bash
   claude --plugin-dir /path/to/mba-skills
   ```
-- **本地永久安装**：
+- **本地 marketplace**：
   ```
   /plugin marketplace add /path/to/mba-skills
-  /plugin install mba-skills@mba-skills
-  ```
-- **远程安装**（推送后，以 GitHub 仓库地址为准）：
-  ```
-  /plugin marketplace add <owner>/mba-skills
   /plugin install mba-skills@mba-skills
   ```
 
