@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mba-skills",
+  "description": "MBA 学习类技能集：three-pages——把任意课程浓缩成 ≤3 页精华参考文档。",
+  "owner": {
+    "name": "rongxinkun"
+  },
+  "plugins": [
+    {
+      "name": "mba-skills",
+      "source": "./",
+      "description": "MBA 学习类技能集：three-pages——把任意课程浓缩成 ≤3 页精华参考文档。"
+    }
+  ]
+}

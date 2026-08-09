@@ -1,0 +1,20 @@
+{
+  "name": "mba-skills",
+  "version": "0.1.0",
+  "description": "MBA 学习类技能集（当前：three-pages——把任意课程浓缩成 ≤3 页精华参考文档）。",
+  "author": {
+    "name": "rongxinkun"
+  },
+  "repository": "https://github.com/atlantisfall/mba-skills",
+  "license": "MIT",
+  "keywords": [
+    "mba",
+    "study",
+    "learning",
+    "course-notes",
+    "三页纸"
+  ],
+  "skills": [
+    "./study/three_pages"
+  ]
+}
