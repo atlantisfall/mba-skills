@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mba-skills",
+  "description": "Skills of how MBAs think and do——MBA 学习与思维技能集（持续扩展）。",
+  "owner": {
+    "name": "atlantisfall"
+  },
+  "plugins": [
+    {
+      "name": "mba-skills",
+      "source": "./",
+      "description": "MBA 学习与思维技能集——Skills of how MBAs think and do。"
+    }
+  ]
+}

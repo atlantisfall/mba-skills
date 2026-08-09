@@ -1,0 +1,20 @@
+{
+  "name": "mba-skills",
+  "version": "0.1.1",
+  "description": "Skills of how MBAs think and do——MBA 学习与思维技能集，持续收录把课程与知识浓缩、复盘、应用的技能。",
+  "author": {
+    "name": "rongxinkun"
+  },
+  "repository": "https://github.com/atlantisfall/mba-skills",
+  "license": "MIT",
+  "keywords": [
+    "mba",
+    "study",
+    "learning",
+    "course-notes",
+    "三页纸"
+  ],
+  "skills": [
+    "./study/three_pages"
+  ]
+}
