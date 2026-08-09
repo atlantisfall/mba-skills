@@ -1,4 +1,4 @@
-/* three_pages 渲染样式：A4、密度档 9.2pt、CJK 用系统字体（macOS PingFang SC）。
+/* three-pages 渲染样式：A4、密度档 9.2pt、CJK 用系统字体（macOS PingFang SC）。
    用法：由 scripts/render_pdf.sh 注入 pandoc 生成的 HTML，Chrome 无头打印成 PDF。 */
 @page { size: A4; margin: 12mm 13mm 11mm 13mm; }
 body { font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Songti SC", sans-serif; font-size: 9.2pt; line-height: 1.4; color: #1a1a1a; margin: 0; }

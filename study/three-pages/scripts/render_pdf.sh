@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# three_pages PDF 渲染：pandoc → HTML → Chrome 无头（零安装、CJK 支持）
+# three-pages PDF 渲染：pandoc → HTML → Chrome 无头（零安装、CJK 支持）
 # 用法: render_pdf.sh <input.md> <output.pdf> [title] [font-size-pt]
 #   字号: 9.2 = 密度档（默认）, 9.6 = 标准档
 # 兜底: 无 Chrome 时用 `npx md-to-pdf`（首跑会下载 Chromium ~170MB）
